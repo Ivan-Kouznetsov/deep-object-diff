@@ -101,7 +101,7 @@ console.log(diff(lhs, rhs)); // =>
       e: undefined
     }
   },
-  buzz: 'fizz'
+  buzz: ['world','fizz']
 }
 */
 ```
@@ -220,7 +220,7 @@ console.log(updatedDiff(lhs, rhs));
 
 /*
 {
-  buzz: 'fizz'
+  buzz: ['world','fizz']
 }
 */
 ```
@@ -276,7 +276,7 @@ console.log(detailedDiff(lhs, rhs));
     }
   },
   updated: {
-    buzz: 'fizz'
+    buzz: ['world','fizz']
   }
 }
 */
